@@ -56,7 +56,9 @@
 
     this.submitQueries = function(query1, query2) {
       callJava("initialize", query1, query2, function () {
+        console.log("finish initialize.....");
         callJava("computeDifference", function (response) {
+          console.log("finish computeDifference.....");
           _this.trigger("views", response);
           console.log(response);
         });

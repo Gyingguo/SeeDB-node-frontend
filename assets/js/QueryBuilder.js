@@ -69,6 +69,7 @@
           };
 
           $scope.submitQuery = function() {
+            console.log("+++" + $scope.query);
             SeeDB.submitQuery($scope.query);
           };
           
