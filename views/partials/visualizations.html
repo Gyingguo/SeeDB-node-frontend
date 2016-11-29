@@ -1,0 +1,17 @@
+<div ng-controller="VisualizationsController">
+    <h3> Visualizations </h3>
+
+    <div ng-repeat="view in views" ng-switch="view.operator">
+      <div ng-switch-when="CARDINALITY">
+        <div cardinality-view view="view"></div>
+      </div>
+
+      <div ng-switch-when="DATA_SAMPLE">
+        <div sample-view view="view"></div>
+      </div>
+
+      <div ng-switch-when="AGGREGATE">
+        <div aggregate-view view="view"></div>
+      </div>
+    </div>
+</div>
