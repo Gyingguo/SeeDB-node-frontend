@@ -2,18 +2,18 @@
   "name": "seedb",
   "version": "0.0.1",
   "dependencies": {
-    "java": "0.8.0",
-    "socket.io": "~0.9.16",
-    "express": "~3.4.6",
-    "connect-assets": "~2.5.3",
+    "java": "0.10.0",
+    "socket.io": "~2.1.1",
+    "express": "~4.16.3",
+    "connect-assets": "~5.4.0",
     "connect-assets-hbs-helpers": "0.0.7",
-    "express-hbs": "~0.5.2",
-    "less": "~1.5.1",
-    "socket.io-client": "~0.9.16",
-    "minimist": "0.0.8"
+    "express-hbs": "~1.0.4",
+    "less": "~3.8.1",
+    "socket.io-client": "~2.1.1",
+    "minimist": "1.2.0"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.7.2"
+    "grunt": "~1.0.3",
+    "grunt-contrib-jshint": "~1.1.0"
   }
 }
